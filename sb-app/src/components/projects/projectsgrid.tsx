@@ -1,6 +1,5 @@
 import { useState, useCallback, useEffect, useRef, useMemo } from "react";
 
-
 interface ProjectGridProps {
    title: string;
    date: number;
