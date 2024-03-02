@@ -6,7 +6,9 @@
 
 const Contact = () => {
     return (
-        <div>2</div>
+        <div className={STYLES.contactContainer}>
+            <div className={SOCIALSTYLES.socialLinks}></div>
+        </div>
     )
 }
 
