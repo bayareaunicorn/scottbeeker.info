@@ -1,0 +1,31 @@
+{
+    "Articles": [ { 
+        "date": "10-10-2024",
+        "title": "Placeholder",
+        "cover": "img/blog/placeholder.jpeg",
+        "body": "lorem ipsum text stuffs"
+
+    },
+    {
+        "date": "10-10-2024",
+        "title": "Placeholder",
+        "cover": "img/blog/placeholder.jpeg",
+        "body": "lorem ipsum text stuffs"
+
+    },
+    {
+        "date": "10-10-2024",
+        "title": "Placeholder",
+        "cover": "img/blog/placeholder.jpeg",
+        "body": "lorem ipsum text stuffs"
+
+    },
+    {
+        "date": "10-10-2024",
+        "title": "Placeholder",
+        "cover": "img/blog/placeholder.jpeg",
+        "body": "lorem ipsum text stuffs"
+
+    }
+    ]
+}

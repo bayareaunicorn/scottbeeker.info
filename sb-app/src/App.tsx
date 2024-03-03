@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import './App.css';
 import Home from './components/home/index.tsx';
 import About from './components/about/index.tsx';
-import ProjectsGrid from './components/projects/projectsgrid.tsx';
+import ProjectsGrid from './components/projects/projectgrid/projectsgrid.tsx';
 import Blog from './components/blog/index.tsx';
 import Newsletter from './components/newsletter/index.tsx';
 import Contact from './components/contact/index.tsx';
