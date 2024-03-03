@@ -8,6 +8,7 @@ import ProjectsGrid from './components/projects/projectsgrid.tsx';
 import Blog from './components/blog/index.tsx';
 import Newsletter from './components/newsletter/index.tsx';
 import Contact from './components/contact/index.tsx';
+import Globie from "./components/globie/globie.tsx";
 
 
 // interface MenuProps {
@@ -33,6 +34,7 @@ function App() {
 
     return (
         <Router>
+            <Globie>
             <div className="App">
                 <button onClick={toggle} className="menu-button">
                     {isOpen ? 'Close Menu' : 'Open Menu'}
@@ -56,10 +58,11 @@ function App() {
                 <Route path="contact" element={<Contact />} />
             </Routes>
             </div>
+            </Globie>
         </Router>
+        
     );
 }
-
 
 
 export default App;
