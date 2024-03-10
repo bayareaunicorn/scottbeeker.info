@@ -3,17 +3,21 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Scott Beeker',
-  tagline: 'Leader, Innovator, Entreprener, Futurist',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://scottbeeker.info',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -31,11 +35,18 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          routeBasePath: '/',
           showReadingTime: true,
-         },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -46,32 +57,25 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: true
-    },
-
-    announcementBar: {
-      id: 'comingsoon',
-      content: 'Courses coming soon!'
-    },
-
     navbar: {
-      title: 'Scott Beeker',
+      title: 'My Site',
       logo: {
-        alt: 'Scott Beeker',
-        src: 'img/logo.jpeg',
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
       },
-
-     
       items: [
-        { to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/production', label: 'Production Apps', positiom: 'left'},
-        {type: 'doc', to: '/docs/research', label: 'Research', docId: 'research', position: 'left'},
-        { to: '/devportfolio', label: ' Developer Portfolio', position: 'left' },
-        {type: 'doc', to: '/docs/courses', label: 'Courses', docId: 'courses', position: 'left' },
-       
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Tutorial',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -87,23 +91,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'Social',
+          title: 'Community',
           items: [
             {
-              label: 'Mastadon W3C',
-              href: 'https://w3c.social/@scottbeeker',
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Github',
-              href: 'https://github.com/bayareaunicorn',
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'X',
-              href: 'https://twitter.com/scottbeekersf',
-            },
-            {
-              label: 'Linkein',
-              href: 'https://linkedin.com/in/scottbeekerofficial'
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Scott Beeker. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
