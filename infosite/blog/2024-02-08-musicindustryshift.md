@@ -1,6 +1,3 @@
-# Ads, Layoffs, and Tours the shift of the music industry
-Scott Beeker
-
 ---
 slug: Music Industry Shift
 title:  Ads, Layoffs, and Tours the shift of the music industry
@@ -8,7 +5,10 @@ authors: beeker
 tags: [musicindustry, music, streaming,]
 ---
 
+# Ads, Layoffs, and Tours the shift of the music industry
 
+
+<!--truncate-->
 ## Consumer Price Hikes on streaming platforms..
 In 2024, several popular streaming platforms have increased their subscription prices. This trend is seen across both video and music streaming services, reflecting a broader industry shift.
  

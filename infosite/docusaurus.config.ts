@@ -80,6 +80,12 @@ const config: Config = {
           position: 'left',
           label: 'Research'
       },
+      
+      {
+
+          to: '/projects',
+          label: 'Projects',
+          position: 'left', },
         {
           
           to: '/blog', 
@@ -102,7 +108,7 @@ const config: Config = {
         { label: 'Linkedin', href: 'https://Linkedin.com/in/scottbeekerofficial' },
         { label: 'Github', href: 'https://github.com/bayareaunicorn' },
       ],
-      copyright: 'Copyright © 2024 Scott Beeker. Built with Docusaurus.',
+      copyright: 'Copyright © 2024 Scott Beeker.',
     },
         
       

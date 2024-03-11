@@ -1,11 +1,13 @@
-Freelancer Survival Guide 2024
-Scott Beeker
-Scott Beeker
-FOUNDER | VISIONARY | INNOVATOR -- BAYAREA UNICORN FUTURE-PROOF
-3 articles
-January 30, 2024
+---
+slug: Freelancer Survival
+title: Freelancer Survival Guide 2024
+authors: beeker
+tags: [freelancing, creator, wfh, workfromhome, upwork]
+---
 
-Open Immersive Reader
+# Freelancer Survival Guide 2024
+
+<!--truncate-->
 As we head into the second month of the new year more and more remote workers are saying goodbye to there local coffee shop and home office, but for some platforms such as Upwork and Fiverr is more than just a passive income. 
 
  Free Falling off the cloud
