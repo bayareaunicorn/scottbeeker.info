@@ -45,7 +45,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.jpeg',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
@@ -91,11 +91,7 @@ const config: Config = {
           to: '/blog', 
           label: 'Blog', 
           position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        
       ],
     },
 
