@@ -29,7 +29,9 @@ const config: Config = {
     [
       'classic',
       {
-        docs: false,
+        docs: {
+          sidebarPath: './sidebars.ts',
+        },
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
@@ -44,18 +46,31 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true
+    },
+
+    announcementBar: {
+      id: 'comingsoon',
+      content: 'Courses coming soon!'
+    },
+
     navbar: {
       title: 'Scott Beeker',
       logo: {
         alt: 'Scott Beeker',
         src: 'img/logo.jpeg',
       },
+
+     
       items: [
-        {to: '/', label: 'Articles', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left'},
         {to: '/production', label: 'Production Apps', positiom: 'left'},
-        { to: '/research', label: 'Research', position: 'left'},
+        {type: 'doc', to: '/docs/research', label: 'Research', docId: 'research', position: 'left'},
         { to: '/devportfolio', label: ' Developer Portfolio', position: 'left' },
-        { to: '/social', label: 'Social and Contacts', position: 'left' },
+        {type: 'doc', to: '/docs/courses', label: 'Courses', docId: 'courses', position: 'left' },
        
       ],
     },
@@ -72,19 +87,23 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Mastadon W3C',
+              href: 'https://w3c.social/@scottbeeker',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/bayareaunicorn',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'X',
+              href: 'https://twitter.com/scottbeekersf',
+            },
+            {
+              label: 'Linkein',
+              href: 'https://linkedin.com/in/scottbeekerofficial'
             },
           ],
         },
@@ -102,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Scott Beeker. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

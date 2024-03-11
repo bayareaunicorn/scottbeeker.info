@@ -1,0 +1,19 @@
+{
+    "docs": [
+{
+"type": "category",
+"label": "Research Papers",
+"link": {
+    "type": "doc",
+    "id": "research/ActivityPub"
+},
+"items": [
+    "research/ActivityPub",
+    "research/RISC-V",
+    "research/open-ran",
+    "research/research"
+]
+        
+}
+    ]
+}
