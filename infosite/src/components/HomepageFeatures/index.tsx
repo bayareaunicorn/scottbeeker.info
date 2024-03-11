@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Powering the creator community',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/goldenmic4.svg').default,
     description: (
       <>
         Helping consumers connect with creators and brands in new innovative ways. 
@@ -20,15 +20,14 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Building the future',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/fediverse.svg').default,
     description: (
-      <>
-        Tearing down the garden walls of traditional social media while powering the fediverse with the ActivityPlex protocol.</>
+      <> Tearing down the garden walls of traditional social media while powering the fediverse with the new ActivityPlex protocol.</>
     ),
   },
   {
     title: 'Opensource',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/terminal.svg').default,
     description: (
       <>
         Great platforms exist because of Opensource software, giving back to the community by Opensourcing most tooling and research.</>

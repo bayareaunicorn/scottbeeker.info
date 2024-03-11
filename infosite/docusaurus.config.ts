@@ -69,11 +69,17 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'EngineeringTutorialSidebar',
+          sidebarId: 'EngineeringTutorialsSidebar',
           position: 'left',
           label: 'Tutorials',
         },
 
+        {
+          type: 'docSidebar',
+          sidebarId: 'ResearchSidebar',
+          position: 'left',
+          label: 'Research'
+      },
         {
           
           to: '/blog', 
@@ -86,53 +92,21 @@ const config: Config = {
         },
       ],
     },
+
+
+
+
     footer: {
-      style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Engineering Tutorials ',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Mastadon W3C',
-              href: 'https://w3c.social/@scottbeeker',
-            },
-            {
-              label: 'Github',
-              href: 'https://github.com/bayareaunicorn',
-            },
-            {
-              label: 'X',
-              href: 'https://twitter.com/scottbeekersf',
-            },
-            {
-              label: 'Linkein',
-              href: 'https://linkedin.com/in/scottbeekerofficial'
-            },
-          ],
-        },
-          
-        {
-          title: 'More',
-          items: [
-            
-            {
-              label: 'GitHub',
-              href: 'https://github.com/bayareaunicorn',
-            },
-          ],
-        },
+        { label: 'X', href: 'https://twitter.com/scottbeekersf' },
+        { label: 'Linkedin', href: 'https://Linkedin.com/in/scottbeekerofficial' },
+        { label: 'Github', href: 'https://github.com/bayareaunicorn' },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Scott Beeker. Built with Docusaurus.`,
+      copyright: 'Copyright © 2024 Scott Beeker. Built with Docusaurus.',
     },
+        
+      
+      
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
