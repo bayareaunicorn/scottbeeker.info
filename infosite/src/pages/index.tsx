@@ -18,7 +18,7 @@ function HomepageHeader() {
         <img src={Terminal} alt="My GIF" />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/Projects">
+          <Link className="button button--secondary button--lg" to="/projects">
             Projects
           </Link>
         </div>
