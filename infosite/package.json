@@ -15,10 +15,10 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/plugin-google-analytics": "^3.1.1",
-    "@docusaurus/plugin-pwa": "^3.1.1",
-    "@docusaurus/preset-classic": "^3.1.1",
+    "@docusaurus/core": "^3.6.0",
+    "@docusaurus/plugin-google-analytics": "^3.6.0",
+    "@docusaurus/plugin-pwa": "^3.6.0",
+    "@docusaurus/preset-classic": "^3.6.0",
     "@mdx-js/mdx": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "@mendable/search": "^0.0.205",
@@ -33,9 +33,9 @@
     "workbox-routing": "^7.0.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/tsconfig": "3.1.1",
-    "@docusaurus/types": "3.1.1",
+    "@docusaurus/module-type-aliases": "^3.6.0",
+    "@docusaurus/tsconfig": "^3.6.0",
+    "@docusaurus/types": "^3.6.0",
     "typescript": "~5.2.2"
   },
   "browserslist": {
